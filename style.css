@@ -1,0 +1,51 @@
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  }
+  
+  .pink {
+    background-color: pink;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  
+  .black {
+    background-color: black;
+    top: 8px; /* смещение на 50 пикселей вниз */
+    left: 8px; /* смещение на 50 пикселей вправо */
+    z-index: 1;
+  }
+
+  .triangle1 {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent; /* одна из сторон треугольника */
+    border-bottom: 8px solid black; /* другая сторона треугольника */
+    position: relative;
+    rotate: 90deg;
+    bottom: 200px;
+    left: 100px;
+    z-index: 1;
+  }
+
+  .triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent; /* одна из сторон треугольника */
+    border-bottom: 8px solid black; /* другая сторона треугольника */
+    position: relative;
+    rotate: 270deg;
+    bottom: 108px;
+  
+    z-index: 1;
+  }
+  
+  
